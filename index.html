@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos java</title>
+</head>
+
+<body>
+    <h1>José Alejandro Rodríguez Ramírez</h1>
+    <br>
+    <h2>Metodo número mayor</h2>
+    <p>public class metodos {<br />public static void main(String args[]){<br />int z,
+        mayor;<br />sumar();<br />desplegar(5);<br />z = cuadrado(6);<br />System.out.println(z);<br />mayor=
+        mayor();<br />System.out.println("");<br />System.out.println("El n&uacute;mero mayor es" +
+        mayor);<br /><br />}<br />public static int mayor(){<br />int n1=0, n2=0, n3=0,
+        mayor=0;<br /><br />System.out.println("Ingrese 3 numeros"); <br />Scanner sc= new Scanner (System.in);<br />n1=
+        sc.nextInt();<br />n2= sc.nextInt();<br />n3= sc.nextInt();<br />mayor = n1;<br />if (n2&gt;mayor)
+        {<br />mayor=n2;<br />} if(n3&gt;mayor){<br />mayor=n3;<br />}<br />return mayor;<br />}<br />public static void
+        sumar() {<br />int n1,n2,suma;<br />Scanner teclado= new Scanner(System.in); <br />System.out.print("Valor 1 :
+        ");<br />n1 = teclado.nextInt();<br />System.out.print("Valor 2 : ");<br />n2 = teclado.nextInt();<br />suma =
+        n1 + n2;<br />System.out.println("La suma es : " + suma);<br />}<br /><br />public static void desplegar (int x)
+        {<br />int i;<br />for (i=1;i&lt;=x;i++) {<br />System.out.println("Sonora");<br />}<br />}<br />public static
+        int cuadrado (int x) {<br />int resultado;<br />resultado = x * x;<br />return resultado;<br />}</p>
+
+    <br>
+    <h2>Ejemplo: </h2>
+    <img src="img1.png" alt="">
+</body>
+
+</html>
